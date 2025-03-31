@@ -1,0 +1,80 @@
+/* Color palette */
+:root {
+  --ash-gray: #ccdad1ff;
+  --ash-gray-2: #9caea9ff;
+  --battleship-gray: #788585ff;
+  --dim-gray: #6f6866ff;
+  --van-dyke: #38302eff;
+}
+
+.hero {
+  background-color: var(--ash-gray-2);
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--van-dyke);
+}
+
+.hero h2 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  color: var(--dim-gray);
+}
+
+body {
+  font-family: 'Fira Code', monospace;
+  font-size: 16px;
+  background-color: var(--ash-gray);
+  color: var(--van-dyke);
+  margin: 0;
+}
+
+nav {
+  background-color: var(--dim-gray);
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--ash-gray);
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: var(--ash-gray-2);
+}
+
+nav a:visited {
+  color: var(--battleship-gray);
+}
+
+section {
+  padding: 20px;
+  border-bottom: 1px solid var(--ash-gray-2);
+}
+
+.parent {
+  background-color: var(--ash-gray-2);
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.child {
+  background-color: var(--battleship-gray);
+  color: white;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--dim-gray);
+}
